@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include "binary_trees.h"
 
 /**
  * binary_trees_ancestor - finds the lowest common ancestor of two nodes

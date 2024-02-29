@@ -12,7 +12,7 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 	binary_tree_t *tmleft, *tmright;
 
-	if (tree == NULL)
+	if (tree == NULL || func == NULL)
 		return;
 	tmleft = tree->left;
 	tmright = tree->right;
